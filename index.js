@@ -83,7 +83,7 @@ r.write(`# ${answers[TITLE.name]}`)
   .write(`[Contact via Email](mailto:${answers[EMAIL.name]})`)
   .write("")
   .write(
-    `See this and other projects by stalking my [GitHub]("https://github.com/${
+    `See this and other projects by stalking my [GitHub](https://github.com/${
       answers[ID.name]
     })`
   );
