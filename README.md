@@ -81,6 +81,8 @@ As mentioned in the installation instructions, you run the program with `node in
 
 You can watch a quick [video](https://drive.google.com/file/d/1HS-gsmMzTKEV4Utv9PMGEHEauATYKBZe/view) on how the process works if you are not satisfied with the screenshots provided.
 
+There is a sample README.md located in [examples](./assets/examples/README.md)
+
 ### Credits
 
 No kittens, puppies, armadillos, otter, or octopi were harmed in the making of this project.
