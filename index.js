@@ -8,7 +8,7 @@ console.clear();
 
 //Output a message to the user about the program and
 // where the output can be found
-console.log(`${"*".repeat(60)}
+console.log(`\n\n${"*".repeat(60)}
 The readme generator will automatically create
 a readme.md file for you by asking questions and 
 then utilizing your responses. The new readme.md 
@@ -37,9 +37,9 @@ const lic_uri = await getLicenseUrl(answers[LIC.name].uri);
 const r = writer();
 r.write(`# ${answers[TITLE.name]}`)
   .write(
-    `![Static Badge](https://img.shields.io/badge/license-${fixBadge(
+    `<a href="#license">![Static Badge](https://img.shields.io/badge/license-${fixBadge(
       answers[LIC.name].name
-    )}-blue)`
+    )}-blue)</a>`
   )
   .write("")
   .write(`## ${DESC.label}`)
